@@ -32,7 +32,7 @@ elif [ -f /etc/os-release ]; then
 fi
 ARCH=$(uname -m)
 echo "Detected : $OS  $VER  $ARCH"
-wget https://github.com/amidevous/xui.one/raw/refs/heads/master/install-dep.sh -qO /tmp/install-dep.sh >/dev/null 2>&1
+wget https://github.com/amidevo/xui.one/raw/refs/heads/master/install-dep.sh -qO /tmp/install-dep.sh >/dev/null 2>&1
 bash /tmp/install-dep.sh
 cd /root
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
